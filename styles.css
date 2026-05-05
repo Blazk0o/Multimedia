@@ -306,6 +306,13 @@ nav[aria-label="Menú principal"] a[aria-current="page"] {
   box-shadow: var(--sombra);
 }
 
+.gallery-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
 .gallery figcaption {
   background: var(--verde-oscuro);
   color: var(--blanco);
